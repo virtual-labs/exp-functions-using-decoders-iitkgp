@@ -7,5 +7,5 @@
 - Digital Systems: Principles and Applications, Neal S. Widmer , Ronald J. Tocci , Gregory L. Moss
 
 #### Video Lectures
--[Encoders and Decoders](http://nptel.ac.in/courses/117106114)
--[Encoders and Decoders](http://nptel.ac.in/courses/117106086)
+- [Encoders and Decoders](http://nptel.ac.in/courses/117106114)
+- [Encoders and Decoders](http://nptel.ac.in/courses/117106086)
