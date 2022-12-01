@@ -1,4 +1,4 @@
-### Theory
+## Theory
 </div><!-- Write the section content inside a paragraph element, we can also include images with &lt;img&gt; tag -->
 
  <div class="content" id="experiment-article-section-2-content">                            
@@ -12,7 +12,7 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                             Figure 1&nbsp;(IC 74138)
                             <br />
                             <br />
-                            
+                         
                            
  <table width="50%"  border="0" cellspacing="1px" cellpadding="2" bgcolor="#999999">
                              
@@ -700,4 +700,4 @@ F2 (A,B,C) = &Sigma; m (0,1,2,3,4,5)
      
 </div>                           
                         </div>
-                    </section>
+                   
