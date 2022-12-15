@@ -534,4 +534,4 @@ F2 (A,B,C) = &Sigma; m (0,1,2,3,4,5)
      
 </div>                           
                         </div>
-                   
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
