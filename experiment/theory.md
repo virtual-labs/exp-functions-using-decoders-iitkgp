@@ -15,7 +15,7 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                          
                  
 
-| \\( \\overline { G2A } \\) | $$  \\overline{ G2B }  $$  | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $$ \\overline{ Y7 } $$ |
+| \\[ \\overline { G2A } \\] | $$  \\overline{ G2B }  $$  | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $$ \\overline{ Y7 } $$ |
 | ----------- |----------- |-------| -------|------|-----|------|-------|-------|-------|------|-----|------|---------|
 | L | L  |H|0|0|0|0|1|1|1|1|1|1|1|
 | L | L  |H|0|0|1|1|0|1|1|1|1|1|1|
