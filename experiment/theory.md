@@ -13,188 +13,22 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                             <br />
                             <br />
                          
-                           
- <table width="50%"  border="0" cellspacing="1px" cellpadding="2" bgcolor="#999999">
-                             
-<tr bgcolor="#FFFFCC">
-                             <td><font style="text-decoration:overline">G2A</font></td>
-                             <td><font style="text-decoration:overline">G2B</font></td>
-                             <td>G1</td>
-                             <td>C</td>
-                             <td>B</td>
-                             <td>A</td>
-                             <td><font style="text-decoration:overline">Y0</font></td>
-                             <td><font style="text-decoration:overline">Y1</font></td>
-                             <td><font style="text-decoration:overline">Y2</font></td>
-                             <td><font style="text-decoration:overline">Y3</font></td>
-                             <td><font style="text-decoration:overline">Y4</font></td>
-                             <td><font style="text-decoration:overline">Y5</font></td>
-                             <td><font style="text-decoration:overline">Y6</font></td>
-                             <td><font style="text-decoration:overline">Y7</font></td>
-                             
- </tr>
-                             
- <tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>0</td>
-                             <td>0</td>
-                             <td>0</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             
-                             
-</tr>
-                             
-                             
- <tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>0</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             
-                             
-</tr>
-                             
-                             
- <tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             
-                             
- </tr>
-                             
-                             
- <tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             
-                             
- </tr>
-                             
-  <tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
+                 
+
+|  $$ \\overline{ G2A } $$ | $$ \\overline{ G2B } $$  | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $$ \\overline{ Y7 } $$ |
+| ----------- | ----------- |-------| -------|------|-----|------|-------|-------| -------|------|-----|------|---------|
+| L | L  |H|0|0|0|0|1|1|1|1|1|1|1|
+| L | L  |H|0|0|1|1|0|1|1|1|1|1|1|
+| L | L  |H|0|1|0|1|1|0|1|1|1|1|1|
+| L | L  |H|0|1|1|1|1|1|0|1|1|1|1|
+| L | L  |H|1|0|0|1|1|1|1|0|1|1|1|
+| L | L  |H|1|0|1|1|1|1|1|1|0|1|1|
+| L | L  |H|1|1|0|1|1|1|1|1|1|0|1|
+| L | L  |H|1|1|1|1|1|1|1|1|1|1|0|
+
+
+Figure 2&nbsp;: Truth table for 3 to 8 decoder
                             
-                             
- </tr>
-                             
-  <tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             
-                             
- </tr>
-                             
-                             
- <tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             <td>1</td>
-                             
-                             
-</tr>
-                             
-                             
-<tr bgcolor="#FFFFCC">
-                             <td>L</td>
-                             <td >L</td>
-                             <td >H</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>1</td>
-                             <td>0</td>
-                             
-                             
-  </tr>
-                             </table>
-                             <br />
-                             Figure 2&nbsp;: Truth table for 3 to 8 decoder
-                             <br />
-                             <br />
                              
   <p class="big" align="left">Part2</p>
                              
@@ -202,7 +36,7 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                               </p>
                               <p align="left"><font style="text-decoration:overline">G2A</font> and <font style="text-decoration:overline">G2B</font> inputs of the first IC(74138) and G1 input of 2nd IC(74138) are shorted and it acts as MSB of 4 binary select input .
                               <font style="text-decoration:overline">G2A</font> &amp;<font style="text-decoration:overline">G2B</font> of second IC(74138) is kept low.G1 of 1st IC is kept always high.</p>
-                             
+                 <ins>will be overlined</ins>.            
   <br />
                              
  <img src="images/dual-74138.JPG" style="width:700px;height:600px;"/> 
