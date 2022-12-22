@@ -3,7 +3,6 @@
 
  <div class="content" id="experiment-article-section-2-content">                            
                             <p>Part1</p>
-            <br />
                         
 IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to three select inputs of the three enable inputs, G1 must be made high value while <font style="text-decoration:overline">G</font>2A and <font style="text-decoration:overline">G</font>2B must be low. The eight active low inputs (<font style="text-decoration:overline">Y</font>0 to <font style="text-decoration:overline">Y</font>7) correspond to eight maxterms (M0 to M7) or in other words, component of the corresponding minterms m0-m7. For example, <font style="text-decoration:overline">Y0</font> = component of <font style="text-decoration:overline">C</font>&nbsp;<font style="text-decoration:overline">B</font>&nbsp;<font style="text-decoration:overline">A</font> = C+B+A. <br />
                             <div align="center">
@@ -11,11 +10,8 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                             <br />
                             Figure 1&nbsp;(IC 74138)
                             <br />
-                            <br />
-                         
-                 
-
-|$$\\overline\\{G2A\\}$$|$$ \\ overline \\{G2B\\} $$ | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $\overline{Y7}$ |
+             
+ |$$\\overline\\{G2A\\}$$|$$ \\ overline \\{G2B\\} $$ | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $\overline{Y7}$ |
 | ----------- |----------- |-------| -------|------|-----|------|-------|-------|-------|------|-----|------|---------|
 | L | L  |H|0|0|0|0|1|1|1|1|1|1|1|
 | L | L  |H|0|0|1|1|0|1|1|1|1|1|1|
