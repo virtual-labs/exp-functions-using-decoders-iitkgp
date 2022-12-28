@@ -9,7 +9,8 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                             <img src="images/74138.jpg" style="width:500px;height:400px;" /> 
                             <br />
                             Figure 1&nbsp;(IC 74138)
-                            <br />
+
+  <br />
          
  |$$\\overline\\{G2A\\}$$|$$ \\ overline \\{G2B\\} $$ | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $\overline{Y7}$ |
  | ----------- | ----------- | ------- |------- | ------ | ----- | ------ | ------- | ------- | ------- | ------ | ----- | ------ | --------- |
