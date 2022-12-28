@@ -9,9 +9,7 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                             <img src="images/74138.jpg" style="width:500px;height:400px;" /> 
                             <br />
                             Figure 1&nbsp;(IC 74138)
-
-  <br />
-         
+ 
  |$$\\overline\\{G2A\\}$$|$$ \\ overline \\{G2B\\} $$ | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $\overline{Y7}$ |
  | ----------- | ----------- | ------- |------- | ------ | ----- | ------ | ------- | ------- | ------- | ------ | ----- | ------ | --------- |
  | L | L  |H|0|0|0|0|1|1|1|1|1|1|1|
@@ -531,4 +529,5 @@ F2 (A,B,C) = &Sigma; m (0,1,2,3,4,5)
      
 </div>                           
                         </div>
+
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
