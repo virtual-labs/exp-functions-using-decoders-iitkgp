@@ -8,9 +8,9 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
                             <div align="center">
                             <img src="images/74138.jpg" style="width:500px;height:400px;" /> 
                             <br />
-                            Figure 1&nbsp;(IC 74138)
+                            Figure 1&nbsp;(IC 74138)</div>
  
- |$$\\overline\\{G2A\\}$$|$$ \\ overline \\{G2B\\} $$ | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $\overline{Y7}$ |
+ | $$ \\overline \\{G2A\\}$$|$$ \\ overline \\{G2B\\} $$ | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $\overline{Y7}$ |
   | ----------- | ----------- | ------- |------- | ------ | ----- | ------ | ------- | ------- | ------- | ------ | ----- | ------ | --------- |
  | L | L  |H|0|0|0|0|1|1|1|1|1|1|1|
  | L | L  |H|0|0|1|1|0|1|1|1|1|1|1|
@@ -20,7 +20,19 @@ IC 74138 works as a 3-to-8 active low decoder,based on the values assigned to th
  | L | L  |H|1|0|1|1|1|1|1|1|0|1|1|
  | L | L  |H|1|1|0|1|1|1|1|1|1|0|1|
  | L | L  |H|1|1|1|1|1|1|1|1|1|1|0|
+ 
 
+
+ $$ \\overline \\{G2A\\}$$|$$ \\ overline \\{G2B\\} $$ | G1  |  C |  B |  A | $$ \\overline{ Y0 } $$  | $$ \\overline{ Y1 } $$   | $$ \\overline{ Y2 } $$   | $$ \\overline{ Y3 } $$  | $$ \\overline{ Y4 } $$  | $$ \\overline{ Y5 } $$  | $$ \\overline{ Y6 } $$  |  $\overline{Y7}$ |
+:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+ L | L  |H|0|0|0|0|1|1|1|1|1|1|1|
+ L | L  |H|0|0|1|1|0|1|1|1|1|1|1|
+ L | L  |H|0|1|0|1|1|0|1|1|1|1|1|
+ L | L  |H|0|1|1|1|1|1|0|1|1|1|1|
+ L | L  |H|1|0|0|1|1|1|1|0|1|1|1|
+ L | L  |H|1|0|1|1|1|1|1|1|0|1|1|
+ L | L  |H|1|1|0|1|1|1|1|1|1|0|1|
+ L | L  |H|1|1|1|1|1|1|1|1|1|1|0|
 
 Figure 2&nbsp;: Truth table for 3 to 8 decoder
                             
@@ -499,7 +511,6 @@ Figure 2&nbsp;: Truth table for 3 to 8 decoder
                               
                               
                               
- </div>
                              
                              
 <br />
@@ -527,7 +538,8 @@ F2 (A,B,C) = &Sigma; m (0,1,2,3,4,5)
 
 <img src="images/decoder-syn.JPG" style="width:400px;height:300px;"/>
      
- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>    
 </div>                           
-                        </div>
 
+
+ <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>    
+ </div> 
