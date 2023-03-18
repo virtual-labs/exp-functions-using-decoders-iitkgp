@@ -19,39 +19,39 @@ function ledchng(){
     var image7 = document.getElementById('b7');  /* A */
     
       
-    if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("off") && image6.src.match("off") && image7.src.match("off") ){
+    if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/off.png" ){
        
-        document.getElementById('led0').src="led_onc.png";
+        document.getElementById('led0').src="images/led_onc.png";
         document.getElementById('led0').style.visibility='hidden';
-        document.getElementById('led1').src="led_onc.png";
+        document.getElementById('led1').src="images/led_onc.png";
         document.getElementById('led1').style.visibility='visible';
-        document.getElementById('led2').src="led_onc.png";
+        document.getElementById('led2').src="images/led_onc.png";
         document.getElementById('led2').style.visibility='visible';
-        document.getElementById('led3').src="led_onc.png";
+        document.getElementById('led3').src="images/led_onc.png";
         document.getElementById('led3').style.visibility='visible';
-        document.getElementById('led4').src="led_onc.png";
+        document.getElementById('led4').src="images/led_onc.png";
         document.getElementById('led4').style.visibility='visible';
-        document.getElementById('led5').src="led_onc.png";
+        document.getElementById('led5').src="images/led_onc.png";
         document.getElementById('led5').style.visibility='visible';
-        document.getElementById('led6').src="led_onc.png";
+        document.getElementById('led6').src="images/led_onc.png";
         document.getElementById('led6').style.visibility='visible';
-        document.getElementById('led7').src="led_onc.png";
+        document.getElementById('led7').src="images/led_onc.png";
         document.getElementById('led7').style.visibility='visible';
-        document.getElementById('led8').src="led_onc.png";
+        document.getElementById('led8').src="images/led_onc.png";
         document.getElementById('led8').style.visibility='visible';
-        document.getElementById('led9').src="led_onc.png";
+        document.getElementById('led9').src="images/led_onc.png";
         document.getElementById('led9').style.visibility='visible';
-        document.getElementById('led10').src="led_onc.png";
+        document.getElementById('led10').src="images/led_onc.png";
         document.getElementById('led10').style.visibility='visible';
-        document.getElementById('led11').src="led_onc.png";
+        document.getElementById('led11').src="images/led_onc.png";
         document.getElementById('led11').style.visibility='visible';
-        document.getElementById('led12').src="led_onc.png";
+        document.getElementById('led12').src="images/led_onc.png";
         document.getElementById('led12').style.visibility='visible';
-        document.getElementById('led13').src="led_onc.png";
+        document.getElementById('led13').src="images/led_onc.png";
         document.getElementById('led13').style.visibility='visible';
-        document.getElementById('led14').src="led_onc.png";
+        document.getElementById('led14').src="images/led_onc.png";
         document.getElementById('led14').style.visibility='visible';
-        document.getElementById('led15').src="led_onc.png";
+        document.getElementById('led15').src="images/led_onc.png";
         document.getElementById('led15').style.visibility='visible';
         
         //document.getElementById('inp').value='000' ;
@@ -66,39 +66,39 @@ function ledchng(){
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("off") && image6.src.match("off") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='hidden';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -113,39 +113,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("off") && image6.src.match("on") && image7.src.match("off") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/off.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='hidden';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -159,39 +159,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 }
 
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("off") && image6.src.match("on") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='hidden';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -204,39 +204,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("on") && image6.src.match("off") && image7.src.match("off") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/off.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='hidden';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -249,39 +249,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("on") && image6.src.match("off") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='hidden';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -294,39 +294,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("on") && image6.src.match("on") && image7.src.match("off") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/off.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='hidden';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -340,39 +340,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 }
 
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("off") && image5.src.match("on") && image6.src.match("on") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/off.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='hidden';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -385,39 +385,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("off") && image6.src.match("off") && image7.src.match("off") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/off.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='hidden';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -430,39 +430,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("off") && image6.src.match("off") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='hidden';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -475,39 +475,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("off") && image6.src.match("on") && image7.src.match("off") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/off.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='hidden';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -520,39 +520,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("off") && image6.src.match("on") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/off.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='hidden';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -565,39 +565,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("on") && image6.src.match("off") && image7.src.match("off") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/off.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='hidden';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -610,39 +610,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("on") && image6.src.match("off") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/off.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='hidden';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -655,39 +655,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("on") && image6.src.match("on") && image7.src.match("off") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/off.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='hidden';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='visible';
     
     //document.getElementById('inp').value='000' ;
@@ -700,39 +700,39 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 }
 
-else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("on") && image5.src.match("on") && image6.src.match("on") && image7.src.match("on") ){
+else if (image2.getAttribute('src')=="images/on.png" && image3.getAttribute('src')=="images/on.png" && image4.getAttribute('src')=="images/on.png" && image5.getAttribute('src')=="images/on.png" && image6.getAttribute('src')=="images/on.png" && image7.getAttribute('src')=="images/on.png" ){
        
-    document.getElementById('led0').src="led_onc.png";
+    document.getElementById('led0').src="images/led_onc.png";
     document.getElementById('led0').style.visibility='visible';
-    document.getElementById('led1').src="led_onc.png";
+    document.getElementById('led1').src="images/led_onc.png";
     document.getElementById('led1').style.visibility='visible';
-    document.getElementById('led2').src="led_onc.png";
+    document.getElementById('led2').src="images/led_onc.png";
     document.getElementById('led2').style.visibility='visible';
-    document.getElementById('led3').src="led_onc.png";
+    document.getElementById('led3').src="images/led_onc.png";
     document.getElementById('led3').style.visibility='visible';
-    document.getElementById('led4').src="led_onc.png";
+    document.getElementById('led4').src="images/led_onc.png";
     document.getElementById('led4').style.visibility='visible';
-    document.getElementById('led5').src="led_onc.png";
+    document.getElementById('led5').src="images/led_onc.png";
     document.getElementById('led5').style.visibility='visible';
-    document.getElementById('led6').src="led_onc.png";
+    document.getElementById('led6').src="images/led_onc.png";
     document.getElementById('led6').style.visibility='visible';
-    document.getElementById('led7').src="led_onc.png";
+    document.getElementById('led7').src="images/led_onc.png";
     document.getElementById('led7').style.visibility='visible';
-    document.getElementById('led8').src="led_onc.png";
+    document.getElementById('led8').src="images/led_onc.png";
     document.getElementById('led8').style.visibility='visible';
-    document.getElementById('led9').src="led_onc.png";
+    document.getElementById('led9').src="images/led_onc.png";
     document.getElementById('led9').style.visibility='visible';
-    document.getElementById('led10').src="led_onc.png";
+    document.getElementById('led10').src="images/led_onc.png";
     document.getElementById('led10').style.visibility='visible';
-    document.getElementById('led11').src="led_onc.png";
+    document.getElementById('led11').src="images/led_onc.png";
     document.getElementById('led11').style.visibility='visible';
-    document.getElementById('led12').src="led_onc.png";
+    document.getElementById('led12').src="images/led_onc.png";
     document.getElementById('led12').style.visibility='visible';
-    document.getElementById('led13').src="led_onc.png";
+    document.getElementById('led13').src="images/led_onc.png";
     document.getElementById('led13').style.visibility='visible';
-    document.getElementById('led14').src="led_onc.png";
+    document.getElementById('led14').src="images/led_onc.png";
     document.getElementById('led14').style.visibility='visible';
-    document.getElementById('led15').src="led_onc.png";
+    document.getElementById('led15').src="images/led_onc.png";
     document.getElementById('led15').style.visibility='hidden';
     
     //document.getElementById('inp').value='000' ;
@@ -748,21 +748,21 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
     else{
 
 
-        document.getElementById('led0').src="led_onc.png";
+        document.getElementById('led0').src="images/led_onc.png";
         document.getElementById('led0').style.visibility='hidden';
-        document.getElementById('led1').src="led_onc.png";
+        document.getElementById('led1').src="images/led_onc.png";
         document.getElementById('led1').style.visibility='hidden';
-        document.getElementById('led2').src="led_onc.png";
+        document.getElementById('led2').src="images/led_onc.png";
         document.getElementById('led2').style.visibility='hidden';
-        document.getElementById('led3').src="led_onc.png";
+        document.getElementById('led3').src="images/led_onc.png";
         document.getElementById('led3').style.visibility='hidden';
-        document.getElementById('led4').src="led_onc.png";
+        document.getElementById('led4').src="images/led_onc.png";
         document.getElementById('led4').style.visibility='hidden';
-        document.getElementById('led5').src="led_onc.png";
+        document.getElementById('led5').src="images/led_onc.png";
         document.getElementById('led5').style.visibility='hidden';
-        document.getElementById('led6').src="led_onc.png";
+        document.getElementById('led6').src="images/led_onc.png";
         document.getElementById('led6').style.visibility='hidden';
-        document.getElementById('led7').src="led_onc.png";
+        document.getElementById('led7').src="images/led_onc.png";
         document.getElementById('led7').style.visibility='hidden';
     }
 
@@ -771,21 +771,21 @@ else if (image2.src.match("on") && image3.src.match("on") && image4.src.match("o
 
 
 /* check G1 connection and VCC */
- if (image3.src.match("off")   && image2.src.match("on")) {
+ if (image3.getAttribute('src')=="images/off.png"   && image2.getAttribute('src')=="images/on.png") {
         document.getElementById('g1').style.visibility='visible';
         document.getElementById('showalt').style.visibility='visible';
         document.getElementById('v').style.visibility='hidden';
         document.getElementById('gnd').style.visibility='hidden';
 
 }
-else if (image3.src.match("on") && image2.src.match("off")) {
+else if (image3.getAttribute('src')=="images/on.png" && image2.getAttribute('src')=="images/off.png") {
     document.getElementById('g1').style.visibility='hidden';
     document.getElementById('showalt').style.visibility='visible';
     document.getElementById('v').style.visibility='visible';
     document.getElementById('gnd').style.visibility='hidden';
 
 }
-else if (image3.src.match("on") && image2.src.match("on")) {
+else if (image3.getAttribute('src')=="images/on.png" && image2.getAttribute('src')=="images/on.png") {
     document.getElementById('g1').style.visibility='hidden';
     document.getElementById('showalt').style.visibility='hidden';
     document.getElementById('v').style.visibility='hidden';
@@ -793,7 +793,7 @@ else if (image3.src.match("on") && image2.src.match("on")) {
 
 
 }
-else if(image3.src.match("off") && image2.src.match("off")){
+else if(image3.getAttribute('src')=="images/off.png" && image2.getAttribute('src')=="images/off.png"){
     document.getElementById('g1').style.visibility='visible';
     document.getElementById('showalt').style.visibility='visible';
     document.getElementById('v').style.visibility='visible';
@@ -814,25 +814,25 @@ else{
 
 
 /* check GND connection */
- if(image1.src.match("on")){
+ if(image1.getAttribute('src')=="images/on.png"){
     document.getElementById('gnd').style.visibility='visible';
     document.getElementById('showalt').style.visibility='visible';
 
-        document.getElementById('led0').src="led_onc.png";
+        document.getElementById('led0').src="images/led_onc.png";
         document.getElementById('led0').style.visibility='hidden';
-        document.getElementById('led1').src="led_onc.png";
+        document.getElementById('led1').src="images/led_onc.png";
         document.getElementById('led1').style.visibility='hidden';
-        document.getElementById('led2').src="led_onc.png";
+        document.getElementById('led2').src="images/led_onc.png";
         document.getElementById('led2').style.visibility='hidden';
-        document.getElementById('led3').src="led_onc.png";
+        document.getElementById('led3').src="images/led_onc.png";
         document.getElementById('led3').style.visibility='hidden';
-        document.getElementById('led4').src="led_onc.png";
+        document.getElementById('led4').src="images/led_onc.png";
         document.getElementById('led4').style.visibility='hidden';
-        document.getElementById('led5').src="led_onc.png";
+        document.getElementById('led5').src="images/led_onc.png";
         document.getElementById('led5').style.visibility='hidden';
-        document.getElementById('led6').src="led_onc.png";
+        document.getElementById('led6').src="images/led_onc.png";
         document.getElementById('led6').style.visibility='hidden';
-        document.getElementById('led7').src="led_onc.png";
+        document.getElementById('led7').src="images/led_onc.png";
         document.getElementById('led7').style.visibility='hidden';
     
 }
@@ -853,9 +853,9 @@ else {
 function a1() {
     var image = document.getElementById('b1');	
 
-    if (image.src.match("off")) 
+    if (image.getAttribute('src')=="images/off.png") 
 {
-    image.src = "on.png";
+    image.src = "images/on.png";
     document.getElementById('b1r').style.display="none";
     document.getElementById('b1g').style.display="block";
 
@@ -863,7 +863,7 @@ function a1() {
     } 
 else
 {
-    image.src = "off.png";
+    image.src = "images/off.png";
     document.getElementById('b1r').style.display="block";
     document.getElementById('b1g').style.display="none";
     //var i1='0';
@@ -873,16 +873,16 @@ ledchng();
 }
 function a2() {
     var image = document.getElementById('b2');		
-    if (image.src.match("off")) 
+    if (image.getAttribute('src')=="images/off.png")
 {
-    image.src = "on.png";
+    image.src = "images/on.png";
     document.getElementById('b2r').style.display="none";
     document.getElementById('b2g').style.display="block";
     //ar i1='1'	;	
     } 
 else
 {
-    image.src = "off.png";
+    image.src = "images/off.png";
     document.getElementById('b2r').style.display="block";
     document.getElementById('b2g').style.display="none";
     //var i1='0';
@@ -891,16 +891,16 @@ else
 }
 function a3() {
     var image = document.getElementById('b3');		
-    if (image.src.match("off")) 
+    if (image.getAttribute('src')=="images/off.png")
 {
-    image.src = "on.png";
+    image.src = "images/on.png";
     document.getElementById('b3r').style.display="none";
     document.getElementById('b3g').style.display="block";
     //var i3='1'	;
     } 
 else
 {
-    image.src = "off.png";
+    image.src = "images/off.png";
     document.getElementById('b3r').style.display="block";
     document.getElementById('b3g').style.display="none";
    // var i3='0'	;
@@ -911,16 +911,16 @@ else
 /* select input D */
 function a4() {
     var image = document.getElementById('b4');		
-    if (image.src.match("off")) 
+    if (image.getAttribute('src')=="images/off.png") 
 {
-    image.src = "on.png";
+    image.src = "images/on.png";
     document.getElementById('b4r').style.display="none";
     document.getElementById('b4g').style.display="block";
     var i4='1'	;	
     } 
 else
 {
-    image.src = "off.png";
+    image.src = "images/off.png";
     document.getElementById('b4r').style.display="block";
     document.getElementById('b4g').style.display="none";
     var i4='0'	;
@@ -932,16 +932,16 @@ else
 /* select input C */
 function a5() {
     var image = document.getElementById('b5');		
-    if (image.src.match("off")) 
+   if (image.getAttribute('src')=="images/off.png") 
 {
-    image.src = "on.png";
+    image.src = "images/on.png";
     document.getElementById('b5r').style.display="none";
     document.getElementById('b5g').style.display="block";
     var i5='1'	;
     } 
 else
 {
-    image.src = "off.png";
+    image.src = "images/off.png";
     document.getElementById('b5r').style.display="block";
     document.getElementById('b5g').style.display="none";
     var i5='0'	;
@@ -952,16 +952,16 @@ else
 /* select input B */
 function a6() {
     var image = document.getElementById('b6');		
-    if (image.src.match("off")) 
+    if (image.getAttribute('src')=="images/off.png") 
 {
-    image.src = "on.png";
+    image.src = "images/on.png";
     document.getElementById('b6r').style.display="none";
     document.getElementById('b6g').style.display="block";
     var i6='1'	;	
     } 
 else
 {
-    image.src = "off.png";
+    image.src = "images/off.png";
     document.getElementById('b6r').style.display="block";
     document.getElementById('b6g').style.display="none";
     var i6='0';
@@ -971,16 +971,16 @@ else
  /* select input A */
 function a7() {
     var image = document.getElementById('b7');		
-    if (image.src.match("off")) 
+   if (image.getAttribute('src')=="images/off.png") 
 {
-    image.src = "on.png";
+    image.src = "images/on.png";
     document.getElementById('b7r').style.display="none";
     document.getElementById('b7g').style.display="block";
     var i7='1'	;	
     } 
 else
 {
-    image.src = "off.png";
+    image.src = "images/off.png";
     document.getElementById('b7r').style.display="block";
     document.getElementById('b7g').style.display="none";
     var i7='0';
