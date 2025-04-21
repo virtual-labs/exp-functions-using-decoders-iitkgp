@@ -60,9 +60,9 @@
                 <div class="dropdown-content" style="background-color:white;  border:2px solid #3385ff;" >
                     <ol type="1">
                         <li>Apply high volatge to V<sub>CC</sub> and G1, and low level voltage to ground(GND)</li>
-                        <li>Apply low voltage to all the select inputs (DCBA).  Y0 of first decoder will be at low state and all other are at high state.</li>
-                        <li>Apply low voltage to DCB and high volatge to A.  Y1 of first decoder will be at low state and all other are at high state.</li>
-                        <li>Apply high voltage to D and low volatge to CBA.  Y1 of second decoder will be at low state and all other are at high state.</li>
+                        <li>Apply low voltage to all the select inputs (DCBA). Where D is the Most Significant Bit (MSB) an A is the Least Significant Bit (LSB). Y0 of first decoder will be at low state and all other are at high state.</li>
+                        <li>Apply low voltage to D (MSB), C, B and high volatge to A (LSB).  Y1 of first decoder will be at low state and all other are at high state.</li>
+                        <li>Apply high voltage to D (MSB) and low volatge to C, B, A (LSB).  Y1 of second decoder will be at low state and all other are at high state.</li>
                         <li>Click "Add to table" after every inputs. This will create the truth table in the below section.</li>
                         <li><b>Note</b>: Red button symbolize as Low (L), Green button symbolize as High(H).</li>
                     </ol> 
