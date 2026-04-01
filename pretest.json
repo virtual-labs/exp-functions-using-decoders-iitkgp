@@ -1,0 +1,29 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Encoders are made by three",
+      "answers": {
+        "a": "AND gate",
+        "b": "OR gate",
+        "c": "NAND gate",
+        "d": "XOR gate"
+      },
+    
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A circuit that converts n inputs to 2^n outputs is called",
+      "answers": {
+        "a": "encoder",
+        "b": "decoder",
+        "c": "comparator",
+        "d": "carry look ahead"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
